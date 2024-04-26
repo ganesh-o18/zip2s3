@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: ganesh-o18/zip2s3
+        uses: ganesh-o18/zip2s3@v1
         with:
           who-to-greet: 'Mona the Octocat'
       # Use the output from the `hello` step

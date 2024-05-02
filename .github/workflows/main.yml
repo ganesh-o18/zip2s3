@@ -1,8 +1,9 @@
-workflow_dispatch:
-  inputs:
-    version:
-      description: 'version'
-      required: true
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'version'
+        required: true
 
 jobs:
   hello_world_job:
